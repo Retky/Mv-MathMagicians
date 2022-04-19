@@ -9,7 +9,7 @@ class Calc extends React.Component {
 
   render() {
     return (
-      <section className="calc">
+      <div className="calc">
         <div className="calcScreen">0</div>
         <div className="calcKeys">
           {this.btns.map((btn) => {
@@ -24,7 +24,7 @@ class Calc extends React.Component {
             return genBtn;
           })}
         </div>
-      </section>
+      </div>
     );
   }
 }

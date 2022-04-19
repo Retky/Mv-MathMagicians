@@ -12,9 +12,9 @@ class App extends React.Component {
     // Prevent linter asking to export function
     console.log(this.state); // Remove when more states
     return (
-      <div>
+      <section>
         <Calc />
-      </div>
+      </section>
     );
   }
 }
