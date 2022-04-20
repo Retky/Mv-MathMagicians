@@ -1,6 +1,7 @@
 .calc {
   margin: auto;
-  border: outset #ddd 1px;
+  border: solid #ddd 8px;
+  border-radius: 5px;
   width: 400px;
   display: flex;
   flex-direction: column;
