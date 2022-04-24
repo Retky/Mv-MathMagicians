@@ -10,8 +10,7 @@ class App extends React.Component {
 
   render() {
     // Prevent linter asking to export function
-    console.log(this.state); // Remove when more states
-    return (
+    console.log(this.state);
       <section>
         <Calc />
       </section>
