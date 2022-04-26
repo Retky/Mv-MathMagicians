@@ -9,8 +9,8 @@ import NavBar from './components/Navigation';
 
 const App = () => (
   <section>
-    <NavBar />
     <Router>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Calc />} />
       </Routes>

@@ -1,14 +1,14 @@
 import React from 'react';
 import './navigation.css';
-// import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => (
   <header>
     <h1>Math Magicians</h1>
     <ul className="navMenu">
-      <li>Home</li>
-      <li>Calculator</li>
-      <li>Quote</li>
+      <Link to="/">Home</Link>
+      <Link to="/calculator">Calculator</Link>
+      <Link to="/quote">Quote</Link>
     </ul>
   </header>
 );
