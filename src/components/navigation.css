@@ -4,6 +4,10 @@ header {
   padding: 0 15px;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 .navMenu {
   display: flex;
   align-items: center;

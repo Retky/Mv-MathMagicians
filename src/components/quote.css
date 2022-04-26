@@ -1,0 +1,9 @@
+.quote {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.quote span {
+  font-weight: bold;
+}
