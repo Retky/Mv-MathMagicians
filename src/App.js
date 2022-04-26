@@ -1,21 +1,21 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
 import Calc from './components/Calculator';
+import NavBar from './components/Navigation';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = { display: 'calc' };
-  }
-
-  render() {
-    // Prevent linter asking to export function
-    console.log(this.state);
-      <section>
-        <Calc />
-      </section>
-    );
-  }
-}
+const App = () => (
+  <section>
+    <NavBar />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Calc />} />
+      </Routes>
+    </Router>
+  </section>
+);
 
 export default App;
