@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.navMenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.navMenu li {
+  padding: 0 5px;
+  border-left: solid #000 1px;
+}
