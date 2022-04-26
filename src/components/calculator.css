@@ -1,3 +1,7 @@
+.mainCont {
+  display: flex;
+}
+
 .calc {
   margin: auto;
   border: solid #ddd 8px;
