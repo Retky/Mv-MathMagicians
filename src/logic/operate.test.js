@@ -16,4 +16,7 @@ describe('Operate', () => {
   test('ERROR', () => {
     expect(operate(8, 0, '÷')).toBe("Can't divide by 0.")
   });
+  test('REMAINDER', () => {
+    expect(operate(8, 3, '%')).toBe("2")
+  });
 });
