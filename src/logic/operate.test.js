@@ -7,4 +7,7 @@ describe('Operate', () => {
   test('REST', () => {
     expect(operate(5, 3, '-')).toBe('2')
   });
+  test('MULTIPLY', () => {
+    expect(operate(2, 3, 'x')).toBe('6')
+  });
 });
