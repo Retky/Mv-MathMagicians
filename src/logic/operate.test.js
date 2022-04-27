@@ -4,4 +4,7 @@ describe('Operate', () => {
   test('SUM', () => {
     expect(operate(2, 3, '+')).toBe('5')
   });
+  test('REST', () => {
+    expect(operate(5, 3, '-')).toBe('2')
+  });
 });
