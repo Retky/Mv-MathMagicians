@@ -13,4 +13,7 @@ describe('Operate', () => {
   test('DIVIDE', () => {
     expect(operate(8, 4, '÷')).toBe('2')
   });
+  test('ERROR', () => {
+    expect(operate(8, 0, '÷')).toBe("Can't divide by 0.")
+  });
 });
