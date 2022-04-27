@@ -10,4 +10,7 @@ describe('Operate', () => {
   test('MULTIPLY', () => {
     expect(operate(2, 3, 'x')).toBe('6')
   });
+  test('DIVIDE', () => {
+    expect(operate(8, 4, '÷')).toBe('2')
+  });
 });
